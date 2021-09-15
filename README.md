@@ -1,16 +1,14 @@
-# voice_app
+# Voice Recognizer
 
 A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project has simple, easy to use, and attractive design.
+Here, I have used speech_to_text package for recognizing audio and neumorphic for attractive UI design.
+Check it now and have fun.
 
-A few resources to get you started if this is your first Flutter project:
+![Screenshot_2021-09-15-20-12-49-891_com example voice_app](https://user-images.githubusercontent.com/55575248/133457342-0168a789-0675-4ef7-8e41-4fcc66efc4bc.jpg)
+![Screenshot_2021-09-15-20-11-16-026_com example voice_app](https://user-images.githubusercontent.com/55575248/133457353-c0c29701-e7ee-477a-8052-536924cd4b74.jpg)
+![Screenshot_2021-09-15-20-11-44-032_com example voice_app](https://user-images.githubusercontent.com/55575248/133457354-bae5d126-b717-4c8d-8f56-0f4f0519a1b9.jpg)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
