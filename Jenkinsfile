@@ -1,6 +1,11 @@
-node{
-    checkout scm
-    stage("start stage 1"){
-        sh 'echo "Hello, world!"'
+pipeline {
+    agent any
+
+    stages {
+        stage('Echo message') {
+            steps {
+                sh 'echo "Hello, world!"'
+            }
+        }
     }
 }
