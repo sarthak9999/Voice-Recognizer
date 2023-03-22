@@ -9,7 +9,9 @@ pipeline {
         }
         stage('Run python script') {
             steps {
-                bat 'python lib/app.py arg1=sam arg2=mini'
+                withEnv(['username=sarthak','password=mast_hai']) {
+                    bat 'python lib/app.py'
+                    }
             }
         }
     }

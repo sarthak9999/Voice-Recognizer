@@ -1,6 +1,8 @@
-import sys
+import os
 
-for arg in sys.argv:
-    print(arg)
-    
+username = os.environ.get('username')
+
+password = os.environ.get('password')
+
+print(username,password)
 print("This is from app.py file")
