@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Run python script') {
             steps {
-                bat 'python lib/app.py'
+                bat 'python lib/app.py arg1=sam arg2=mini'
             }
         }
     }
